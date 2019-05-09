@@ -100,7 +100,3 @@ header a {
   transition: all 1s;
   background-color: rgba(220, 20, 60, 0.5);
 }
-
-.btn_p {
-  display: none;
-}
