@@ -1,0 +1,11 @@
+.FUK_CA {
+  position: absolute;
+  top: 5%;
+  left: 35%;
+  display: inline-block;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 2px;
+  cursor: pointer;
+  background-color: rgba(65, 105, 225, 0.8);
+}
