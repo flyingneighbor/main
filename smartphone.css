@@ -1,0 +1,55 @@
+@media (max-width: 850px) {
+  .icon{
+    display: none;
+  }
+
+  .header-wrapper {
+    text-align: center;
+  }
+
+  .header-image {
+      height: 60px;
+      margin: 10px 0;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .btn{
+    display: none;
+  }
+
+  .btn_p {
+    display: inline-block;
+    width: 90%;
+    padding: 10px 20px;
+    text-align: center;
+    color: white;
+    border-radius: 3px;
+    box-shadow: 0 6px #464646;
+  }
+
+  .FUK_p {
+    position: absolute;
+    left: 0;
+    top: 85px;
+    background-color: rgba(65, 105, 225, 0.9);
+  }
+
+  .OKA_p {
+    position: absolute;
+    left: 0;
+    top: 140px;
+    background-color: rgba(220, 20, 60, 0.9);
+  }
+
+  /*kyushu_page--------------------------*/
+
+  .FUK_CA_p {
+    position: absolute;
+    left: 0;
+    top: 85px;
+    background-color: rgba(65, 105, 225, 0.8);
+  }
+}

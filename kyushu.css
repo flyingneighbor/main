@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.kyushu {
+  box-sizing: border-box;
+  margin-top: 100px;
+  width: 70%;
+  height: 80%;
+  opacity: 0.8;
+}
+
+.FUK_CA {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  display: inline-block;
+  padding: 5px 5px;
+  color: white;
+  border-radius: 2px;
+  cursor: pointer;
+  background-color: rgba(65, 105, 225, 0.8);
+}
