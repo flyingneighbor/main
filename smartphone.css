@@ -30,17 +30,32 @@
     box-shadow: 0 6px #464646;
   }
 
-  .FUK_p {
+  iframe {
+    box-sizing: border-box;
+    padding: 10px 0;
+    background-color: #000;
+  }
+
+/* topの間隔は55px */
+
+  .OSA_p {
     position: absolute;
     left: 0;
     top: 85px;
+    background-color: rgba(255, 215, 0, 0.9);
+  }
+
+  .FUK_p {
+    position: absolute;
+    left: 0;
+    top: 140px;
     background-color: rgba(65, 105, 225, 0.9);
   }
 
   .OKA_p {
     position: absolute;
     left: 0;
-    top: 140px;
+    top: 195px;
     background-color: rgba(220, 20, 60, 0.9);
   }
 

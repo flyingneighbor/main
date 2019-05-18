@@ -1,4 +1,5 @@
-* {
+body {
+  font-family: Verdana, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -29,7 +30,6 @@ header {
 
 .title {
   display: inline-block;
-  font-family: "arial black";
   font-size: 40px;
   line-height: 60px;
   color: #84c1ff;
@@ -103,6 +103,15 @@ header {
   box-shadow: none;
 }
 
+/* 各都道府県 */
+
+.OSA {
+  position: absolute;
+  top: 75%;
+  left: 45%;
+  background-color: rgba(255, 215, 0, 0.9);
+}
+
 .FUK {
   position: absolute;
   top: 60%;
@@ -120,6 +129,11 @@ header {
 
 
 /*btn hover*/
+
+.OSA:hover {
+  transition: all 1s;
+  background-color: rgba(255. 215, 0, 0.5);
+}
 
 .FUK:hover {
   transition: all 1s;
